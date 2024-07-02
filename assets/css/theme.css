@@ -2313,7 +2313,7 @@ span.sk__menu-icon:not(.accented):not(.sk__gradient-back-v1) span[class^="icon-"
 	.sk__navbar .navbar-nav>li>ul>.nav-subwrap {
 		display: block;
 		padding: 10px 12px 10px 5px;
-		background: rgb(251 242 242 / 56%);
+		background: rgba(242, 240, 240, 0.832);
 		-webkit-transition: all 0.4s ease 0s;
 		-o-transition: all 0.4s ease 0s;
 		transition: all 0.4s ease 0s;
@@ -2851,6 +2851,18 @@ span.super-heading.sk__gradient-fancy-text-back.shadowed {
 		line-height: 1.2;
 	}
 }
+
+
+h1.h1-small,
+span.h1-small.sk__gradient-fancy-text-back {
+	font-family: 'Syncopate', sans-serif;
+	font-weight: 900;
+	font-size: 38px;
+	font-size: 39px;
+	letter-spacing: -1.52px;
+	color: #fafafa;
+}
+
 
 h1.h1-small,
 span.h1-small.sk__gradient-fancy-text-back {
