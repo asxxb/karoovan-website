@@ -1775,7 +1775,7 @@ span.sk__menu-icon:not(.accented):not(.sk__gradient-back-v1) span[class^="icon-"
 
 	body.sk__scrolling-started .sk__mobile-menu-bar {
 		height: 44px;
-		background-color: rgba(0, 0, 0, 0.94);
+		background-color: rgb(255 255 255 / 46%);
 		border-bottom: 1px solid rgba(255, 255, 255, 0.13);
 	}
 
