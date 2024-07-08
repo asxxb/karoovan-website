@@ -26,6 +26,18 @@ span.sk__underliner:before {
 	display: inline-block;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+	/* -webkit-text-fill-color: white; */
+
+}
+.sk__clipped-text_service{
+	display: inline-block;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: #ffffff;
+	/* -webkit-text-fill-color: #000000; */
+
+
+
+
 }
 
 .sk__gradient-fancy-text,  
@@ -68,9 +80,12 @@ a.sk__iconbox-icon-link:hover span[class*="icon-"].sk__gradient-fancy-text {
 }
 
 .sk__gradient-background-tint {
-	background: rgb(129,21,255);
-	background: -o-linear-gradient(315deg, rgba(243, 242, 244, 0.554) 0%, rgba(255,42,208,0.07007352941176472) 11%, rgba(255,143,42,0) 20%);
-	background: linear-gradient(138deg, #18161678 0%, rgb(29 27 29 / 86%) 11%, rgb(0 0 0 / 88%) 20%);
+	/* background: rgb(129,21,255); */
+	background-color: #000000;
+	
+
+	/* background: -o-linear-gradient(315deg, rgba(243, 242, 244, 0.554) 0%, rgba(255,42,208,0.07007352941176472) 11%, rgba(255,143,42,0) 20%);
+	background: linear-gradient(138deg, #18161678 0%, rgb(29 27 29 / 86%) 11%, rgb(0 0 0 / 88%) 20%); */
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#8115ff",endColorstr="#ff8f2a",GradientType=1);
 }
 

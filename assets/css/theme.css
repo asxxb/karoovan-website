@@ -1365,6 +1365,8 @@ span.sk__menu-icon:not(.accented):not(.sk__gradient-back-v1) span[class^="icon-"
 		width: 100%;
 		height: 100px;
 		border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+		/* border-bottom: 1px solid black; */
+
 		z-index: 9998;
 	}
 
@@ -1426,7 +1428,8 @@ span.sk__menu-icon:not(.accented):not(.sk__gradient-back-v1) span[class^="icon-"
 
 	.nav-content {
 		padding: 10px;
-		background: #000000;
+		/* background: #000000; */
+		background: #ffffff;
 		border-left: 1px solid #212528;
 	}
 
@@ -1593,7 +1596,9 @@ span.sk__menu-icon:not(.accented):not(.sk__gradient-back-v1) span[class^="icon-"
 	.hc-offcanvas-nav .nav-container,
 	.hc-offcanvas-nav .nav-wrapper,
 	.hc-offcanvas-nav ul {
-		background: #000000;
+		/* background: #000000; */
+		background: #ffffff;
+
 	}
 
 	.hc-offcanvas-nav .nav-content>.nav-close:first-child a,
@@ -1686,7 +1691,9 @@ span.sk__menu-icon:not(.accented):not(.sk__gradient-back-v1) span[class^="icon-"
 	}
 
 	li.nav-item.nav-item-custom {        
-		background: #000000;
+		/* background: #000000; */
+		background: #ffffff;
+
 	}
 
 	.nav-custom-content .footer-socials-section {
@@ -2482,7 +2489,9 @@ p {
 	font-family: 'Lato', sans-serif;
 	font-size: 16px;
 	line-height: 30px;
-	color: #ffffff;
+	/* color: #ffffff; */
+	color: #000000;
+
 }
 
 @media all and (min-width: 992px) and (max-width: 1199px) {
@@ -2600,7 +2609,8 @@ p.p-v2 {
 
 @media all and (max-width: 575px) {
 	p.p-v2 {
-		font-size: 12px;
+		/* font-size: 12px; */
+		font-size: 14px;
 		line-height: 24px;
 	}
 }
@@ -2871,7 +2881,9 @@ span.h1-small.sk__gradient-fancy-text-back {
 	font-size: 38px;
 	font-size: 39px;
 	letter-spacing: -1.52px;
-	color: #fafafa;
+	/* color: #fafafa; */
+	color: #000000;
+
 }
 
 @media all and (max-width: 575px) {
@@ -2893,7 +2905,9 @@ span.h2-regular.sk__gradient-fancy-text-back {
 	line-height: 1.4;
 	margin-bottom: 0.9em;
 	letter-spacing: -0.24px;
-	color: #FFFFFF;
+	/* color: #FFFFFF; */
+	color: #000000;
+
 }
 
 ol.sk__legal {
@@ -3205,7 +3219,9 @@ h4 {
 	font-size: 30px;
 	letter-spacing: -0.3px;
 	line-height: 1.4;
-	color: #FFFFFF;
+	/* color: #FFFFFF; */
+	color: #000000;
+
 	margin-bottom: 1.1875rem;
 }
 
@@ -3214,11 +3230,16 @@ h4.narrow {
 }
 
 h4.h4-dark {
-	color: #ffffff;
+	/* color: #ffffff; */
+	color: #000000;
+
 }
 
 h4.h4-shadow {
-	text-shadow: -4.34px 9.76px 3.25px rgba(0, 0, 0, 0.75);
+	/* text-shadow: -4.34px 9.76px 3.25px rgba(0, 0, 0, 0.75); */
+	text-shadow: -3.34px 9.76px 15.25px rgba(0, 0, 0, 0.40); 
+
+	
 }
 
 @media all and (min-width: 576px) and (max-width: 767px) {
@@ -3470,7 +3491,9 @@ body {
 	color: #FFFFFF;
 	font-size: 16px;
 	line-height: 30px;
-	background: #000000;
+	/* background: #000000; */
+	background: #ffffff;
+
 }
 
 hr {}
@@ -4273,7 +4296,9 @@ hr.sk__divider,
 	margin-bottom: 20px;
 	margin-top: 20px;
 	background-color: #1A1A1A;
-	background-color: rgba(255, 255, 255, 0.11);
+	/* background-color: rgba(255, 255, 255, 0.11); */
+	background-color: #000000;
+
 }
 
 hr {
@@ -4316,6 +4341,13 @@ hr.sk__divider.bright,
 .sk__tint {
 	z-index: -1;
 	/* background: #000000; */
+	/* background: #ffffff; */
+	opacity: 0.6;
+}
+.sk__tint_skills {
+	z-index: -1;
+	/* background: #000000; */
+	background: #ffffff;
 	opacity: 0.6;
 }
 
@@ -5551,7 +5583,9 @@ span.sk__counter {
 	font-weight: 700;
 	line-height: 1.2;
 	letter-spacing: -1.65px;
-	color: #ffffff;
+	/* color: #ffffff; */
+	color: black;
+
 }
 
 .counters-wrap p {
@@ -6915,8 +6949,22 @@ p.sk__rectangles-laptop-custom-p {
     url(../images/Caravans/arturo-rey-m6fYkq_P2Cc-unsplash.jpg); */
 	/* linear-gradient(rgba(0, 0, 0, 0.5), #191C20), */
 .sk__services-background.sk__parallax-background-element {
-	background-image: 
+	/* background-image: 
 		url(../images/caravans/services2.jpg);
+		url(../images/caravans/arturo-rey-m6fYkq_P2Cc-unsplash.jpg); */
+
+		/* background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/caravans/arturo-rey-m6fYkq_P2Cc-unsplash.jpg); */
+		/* background-image: url(../images/caravans/services-03.jpg); */
+		/* background-image: url(../images/caravans/redcaravan.png); */
+		background-image: 
+		linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+		url(../images/caravans/redcaravan.png);
+
+
+		background-size: cover;
+		background-position: center;
+		color: white; /* Ensure your text is readable */
+
 	-webkit-filter: contrast(1.07);
 	filter: contrast(1.0),opacity(1);
 	-webkit-transform: scale(1.22);
@@ -7463,11 +7511,30 @@ p.skills-subhead {
 
 .sk__testimonial-img-1 {
 	background-image: url(../images/logo/user1.png);
+	height: 130px;
+	width: 130px;
 }
+
+
 
 .sk__testimonial-img-2 {
 	background-image: url(../images/logo/user1.png);
+	height: 130px;
+	width: 130px;
 }
+@media screen and (max-width: 640px) {
+	.sk__testimonial-img-1 {
+		height: 100px;
+		width: 100px;
+	}
+	.sk__testimonial-img-2 {
+		height: 100px;
+		width: 100px;
+	}
+
+
+}
+
 
 .sk__testimonial-txt {
 	margin-left: 41px;
@@ -7479,7 +7546,9 @@ p.skills-subhead {
 }
 
 .sk__testimonial-txt p.p-xs {
-	font-size: 11px;
+	/* font-size: 11px; */
+	font-size: 14px;
+
 	margin-bottom: 0.75rem;
 }
 
@@ -7527,7 +7596,7 @@ section.sk__cta-warp {
 }
 
 section.sk__cta-warp:not(.no-background) {
-	background-image: url(../images/section-CTA-background-SVG.svg);
+	/* background-image: url(../images/section-CTA-background-SVG.svg); */
 }
 
 @media all and (max-width: 575px) {
@@ -7737,7 +7806,11 @@ section.sk__parallax-background-section.sk__contact-us {
 }
 
 .sk__contact-us .sk__parallax-background-element {
-	background-image: url(../images/contact-back.html);
+	/* background-image: url(../images/contact-back.html); */
+	/* background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images//caravans/mercedes-benz-2777645.jpg); */
+	background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images//caravans/street\ resize.png);
+
+
 }
 
 .sk__contact-us .sk__tint {
@@ -7869,11 +7942,17 @@ section.sk__parallax-background-section.sk__contact-us {
 
 .sk__rectangle-black {
 	background-color: rgba(0, 0, 0, 0.64);
+
 }
 
 .sk__rectangle-white-1,
 .sk__rectangle-white-2 {
-	background-color: rgba(255, 255, 255, 0.07);
+	/* background-color: rgba(255, 255, 255, 0.07); */
+	/* background-color: rgba(7, 0, 0, 0.07); */
+	background-color: rgba(7, 0, 0, 0.07);
+
+	/* background-color: rgb(13, 13, 13); */
+
 }
 
 .sk__rectangle-white-1 {
@@ -10050,7 +10129,9 @@ Coming soon page text sizes correction . @media all and (max-width: 767px) {
 }
 
 .dark-shade-7-bg {
-	background-color: #101314 !important;
+	/* background-color: #101314 !important; */
+	background-color: #ffffff !important;
+
 }
 
 .dark-shade-7-bg-before:before {
@@ -10505,3 +10586,6 @@ h2.h2-super.theme-preview-hero-h2 {
 .social-icons:active {
     outline: none;
 }
+
+
+

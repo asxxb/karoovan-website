@@ -53,7 +53,8 @@
 
 </head>
 
-<body class="sk__about-us-page dark-shade-1-bg">
+<!-- <body class="sk__about-us-page dark-shade-1-bg"> -->
+<body class="sk__about-us-page">
 
 	<main id="primary" class="site-main">
 
@@ -64,213 +65,216 @@
 
 		<!-- Navigation Menu
 		================================================== -->
-		<div class="sk__mobile-menu-bar"></div>
+		<div class="sk__mobile-menu-bar" style="background-color: #000000;"></div>
+		<!-- style="background-color: rgba(0, 0, 0, 0.64);" -->
+		<!-- style="background-color: rgba(0, 0, 0, 0.74);" -->
 
 		<!-- Dynamically controlled with JS! -->
 		<a class="sk__mobile-main-logo" href="index.html" style="outline: none;"><img alt="Website logo."
 				src="assets/images/logo/Karoovan_Logo_3-removebg-preview.png"></a>
 
-		<nav id="main-nav" style="opacity: 0"
-			class="sk__menu navbar sk__navbar navbar-expand-lg navbar-dark static-top">
-			<!-- Desktop Menu Logo -->
-			<a class="navbar-brand" href="#" style="outline: none;"><img id="sk__main-logo" alt="Website logo."
-					src="assets/images/logo-normal.png" /></a>
-
-			<!-- The Menu -->
-			<ul class="navbar-nav ms-auto">
-				<!-- Mobile Menu Logo (only use if "close" buttons are set to false in JS) -->
-				<li data-nav-custom-content class="custom-content sk__mobile-menu-logo">
-					<a class="sk__mobile-navbar-brand" href="index.html"><img alt="Website mobile logo."
-							src="/assets/images/logo/Karoovan_Logo_3-removebg-preview.png" /></a>
-				</li>
-
-				<!-- Regular Menu Items Start -->
-				<li class="nav-item menu-item-has-children">
-					<a class="nav-link hvr-underline-from-center" href="index.html">Home</a>
-					<!-- <ul class="sk__submenu-ul">
-		<li class="nav-item"><a class="nav-link" href="index.html"><span class="sk__menu-icon"><span class="icon-codepen1"></span></span>Combo Slider (<em>default</em>)</a></li>
-		<li class="nav-item"><a class="nav-link" href="home-portfolio.html"><span class="sk__menu-icon"><span class="icon-th"></span></span>Portfolio Home</a></li>
-		<li class="nav-item"><a class="nav-link" href="home-morphing-hover-hero-image.html"><span class="sk__menu-icon"><span class="icon-star"></span></span>Morphing Hover Hero</a></li>
-		<li class="nav-item"><a class="nav-link" href="home-mega-text-video.html"><span class="sk__menu-icon"><span class="icon-cc-jcb"></span></span>Mega Text (Video)</a></li>
-		<li class="nav-item"><a class="nav-link" href="home-parallax.html"><span class="sk__menu-icon"><span class="icon-clone"></span></span>Parallax Home</a></li>
-		<li class="nav-item"><a class="nav-link" href="home-parallax-half-screens.html"><span class="sk__menu-icon"><span class="icon-object-ungroup"></span></span>Parallax Half-screens</a></li>
-		<li class="nav-item"><a class="nav-link" href="home-mega-text-image.html"><span class="sk__menu-icon"><span class="icon-cc-jcb"></span></span>Mega Text (Image)</a></li>
-		<li class="nav-item"><a class="nav-link" href="home-fullscreen-video.html"><span class="sk__menu-icon"><span class="icon-play-circle"></span></span>Full Screen Video</a></li>
-		<li class="nav-item"><a class="nav-link" href="home-parallax-strips-hero.html"><span class="sk__menu-icon"><span class="icon-view_week"></span></span>Parallax Strips Hero</a></li>
-		<li class="nav-item"><a class="nav-link" href="home-hero-slide-show.html"><span class="sk__menu-icon"><span class="icon-photo"></span></span>Hero Slide Show</a></li>
-		<li class="nav-item"><a class="nav-link" href="home-animated-headline.html"><span class="sk__menu-icon"><span class="icon-play_arrow"></span></span>Animated Headline</a></li>
-		<li class="nav-item"><a class="nav-link" href="home-hero-image.html"><span class="sk__menu-icon"><span class="icon-photo"></span></span>Hero Image</a></li>
-		<li class="nav-item"><a class="nav-link" href="home-news.html"><span class="sk__menu-icon"><span class="icon-newspaper-o"></span></span>News Home</a></li>
-		<li class="nav-item"><a class="nav-link" href="home-fullscreen-video-yt.html"><span class="sk__menu-icon"><span class="icon-youtube-play"></span></span>Full Screen Video (YT)</a></li>
-		<li class="nav-item"><a class="nav-link" href="home-combo-light.html"><span class="sk__menu-icon"><span class="icon-codepen1"></span></span>Combo Slider (Light)</a></li>
-		</ul> -->
-				</li>
-
-				<li class="nav-item menu-item-has-children">
-					<a class="nav-link hvr-underline-from-center" href="about-us.html">About US</a>
-					<!-- <ul class="sk__submenu-ul">
-		<li class="nav-item"><a class="nav-link" href="about-us.html"><span class="sk__menu-icon"><span class="icon-user-circle"></span></span>About Us</a></li>
-		<li class="nav-item"><a class="nav-link" href="page-services.html"><span class="sk__menu-icon"><span class="icon-th"></span></span>Services</a></li>
-		<li class="nav-item"><a class="nav-link" href="page-service-item.html"><span class="sk__menu-icon"><span class="icon-codepen1"></span></span>Service or Product</a></li>
-		<li class="nav-item"><a class="nav-link" href="page-portfolio.html"><span class="sk__menu-icon"><span class="icon-th"></span></span>Portfolio</a></li>
-		<li class="nav-item"><a class="nav-link" href="page-portfolio-item.html"><span class="sk__menu-icon"><span class="icon-object-group"></span></span>Project - Parallax Gallery</a></li>
-		<li class="nav-item"><a class="nav-link" href="page-portfolio-item-classic-gallery.html"><span class="sk__menu-icon"><span class="icon-photo"></span></span>Project - Classic Gallery</a></li>
-		<li class="nav-item"><a class="nav-link" href="page-features.html"><span class="sk__menu-icon"><span class="icon-table2"></span></span>Features</a></li>
-		<li class="nav-item"><a class="nav-link" href="page-news.html"><span class="sk__menu-icon"><span class="icon-list-alt"></span></span>News</a></li>
-		<li class="nav-item"><a class="nav-link" href="page-news-item.html"><span class="sk__menu-icon"><span class="icon-file-text"></span></span>Article - Parallax Header</a></li>
-		<li class="nav-item"><a class="nav-link" href="page-news-item-classic.html"><span class="sk__menu-icon"><span class="icon-file-text-o"></span></span>Article - Classic</a></li>
-		<li class="nav-item"><a class="nav-link" href="contact-us.html"><span class="sk__menu-icon"><span class="icon-envelope-o"></span></span>Contact Us</a></li>
-		<li class="nav-item"><a class="nav-link" href="page-coming-soon.html"><span class="sk__menu-icon"><span class="icon-access_time"></span></span>Coming Soon</a></li>
-		<li class="nav-item"><a class="nav-link" href="page-404.html"><span class="sk__menu-icon"><span class="icon-warning"></span></span>404 Page</a></li>
-		<li class="nav-item"><a class="nav-link" href="page-terms-and-conditions.html"><span class="sk__menu-icon"><span class="icon-library"></span></span>Terms and Conditions</a></li>
-		<li class="nav-item"><a class="nav-link" href="page-privacy-policy.html"><span class="sk__menu-icon"><span class="icon-shield"></span></span>Privacy Policy</a></li>
-		</ul> -->
-				</li>
-				<li class="nav-item menu-item-has-children">
-					<a class="nav-link hvr-underline-from-center" href="#caravanAssortment">Caravan Assortments</a>
-					<ul class="sk__submenu-ul">
-						<li class="nav-item"><a class="nav-link" href="caravan-conventional">The
-								conventional caravan</a></li>
-						<li class="nav-item"><a class="nav-link" href="caravan-twin-axle-caravan.html">The twin
-								axle caravan</a></li>
-						<li class="nav-item"><a class="nav-link" href="caravan-teardrop.html">Tiny teardrop
-								trailers</a></li>
-						<li class="nav-item"><a class="nav-link" href="caravan-Poptop.html">Pop top
-								caravans</a></li>
-						<li class="nav-item"><a class="nav-link" href="caravan-TinyGrpCaravan.html">Tiny GRP
-								caravans</a></li>
-						<li class="nav-item"><a class="nav-link" href="caravan-folding.html">Folding
-								caravans</a></li>
-						<li class="nav-item"><a class="nav-link" href="caravan-TheAmericanAirstream.html">The
-								American Airstream</a></li>
-						<li class="nav-item"><a class="nav-link" href="caravan-Fifthwheelers.html">Fifth
-								wheelers</a></li>
-						<li class="nav-item"><a class="nav-link" href="caravan-ThestylishT@BandSwiftBasecamp.html">The
-								stylish T@B and Swift
-								Basecamp</a></li>
-
-					</ul>
-				</li>
-
-				<!-- <li class="nav-item menu-item-has-children">
-		<a class="nav-link hvr-underline-from-center" href="#"><span class="sk__menu-icon"><span class="icon-th"></span></span>Elements</a>
-		<ul class="sk__submenu-ul">
-		<li class="nav-item menu-item-has-children">
-		<a class="nav-link" href="#"><span class="sk__menu-icon green sk__icon-popup"><span class="icon-usd"></span><span class="icon-usd"></span><span class="sk__icon-popup-text">$235 Added Value</span></span>Premium & Extras</a>
-		<ul class="sk__sub-submenu-ul">
-		<li class="nav-item"><a class="nav-link" href="elements-gsap.html"><span class="sk__menu-icon green sk__icon-popup"><span class="icon-usd"></span><span class="icon-usd"></span><span class="sk__icon-popup-text">Best Premium Animation Engine on the market. $199 Added Value</span></span>Greensock GSAP</a>
-		</li>
-		<li class="nav-item"><a class="nav-link" href="elements-forms.html"><span class="sk__menu-icon green sk__icon-popup"><span class="icon-usd"></span><span class="icon-usd"></span><span class="sk__icon-popup-text">Fully Working Forms! $14 Added Value</span></span>Contact Forms</a></li>
-		<li class="nav-item"><a class="nav-link" href="elements-forms.html#subscribe-form"><span class="sk__menu-icon green sk__icon-popup"><span class="icon-usd"></span><span class="icon-usd"></span><span class="sk__icon-popup-text">Fully Working Forms! $14 Added Value</span></span>Subscribe Forms</a></li>
-		<li class="nav-item"><a class="nav-link" href="elements-mockups.html"><span class="sk__menu-icon green sk__icon-popup"><span class="icon-usd"></span><span class="icon-usd"></span><span class="sk__icon-popup-text">Premium Mockups included, $22 Added Value</span></span>PSD & AI Mockups</a></li>
-		</ul>
-		</li>
-		<li class="nav-item menu-item-has-children">
-		<a class="nav-link" href="#"><span class="sk__menu-icon"><span class="icon-codepen1"></span></span>Sliders & Hero</a>
-		<ul class="sk__sub-submenu-ul">
-		<li class="nav-item"><a class="nav-link" href="elements-hero-combo-slider.html"><span class="sk__menu-icon"><span class="icon-codepen1"></span></span>Combo Slider</a></li>
-		<li class="nav-item"><a class="nav-link" href="elements-hero-fullscreen-video.html"><span class="sk__menu-icon"><span class="icon-play-circle"></span></span>Full Screen Video</a></li>
-		<li class="nav-item"><a class="nav-link" href="elements-hero-fullscreen-video-yt.html"><span class="sk__menu-icon"><span class="icon-youtube-play"></span></span>Full Screen Video (YT)</a></li>
-		<li class="nav-item"><a class="nav-link" href="elements-hero-slide-show.html"><span class="sk__menu-icon"><span class="icon-photo"></span></span>Hero Slide Show</a></li>
-		<li class="nav-item"><a class="nav-link" href="elements-hero-mega-text-video.html"><span class="sk__menu-icon"><span class="icon-cc-jcb"></span></span>Mega Text (Video)</a></li>
-		<li class="nav-item"><a class="nav-link" href="elements-hero-mega-text-image.html"><span class="sk__menu-icon"><span class="icon-cc-jcb"></span></span>Mega Text (Image)</a></li>
-		<li class="nav-item"><a class="nav-link" href="elements-hero-parallax-strips.html"><span class="sk__menu-icon"><span class="icon-view_week"></span></span>Parallax Strips Hero</a></li>
-		<li class="nav-item"><a class="nav-link" href="elements-hero-animated-headline.html"><span class="sk__menu-icon"><span class="icon-play_arrow"></span></span>Animated Hero Headline</a></li>
-		<li class="nav-item"><a class="nav-link" href="elements-hero-image.html"><span class="sk__menu-icon"><span class="icon-photo"></span></span>Hero Image</a></li>
-		</ul>
-		</li>
-		<li class="nav-item menu-item-has-children">
-		<a class="nav-link" href="elements-content.html"><span class="sk__menu-icon"><span class="icon-th"></span></span>Content Sections</a>
-		<ul class="sk__sub-submenu-ul">
-		<li><a class="nav-link" href="elements-content.html"><span class="sk__menu-icon"><span class="icon-th"></span></span>Content Sections</a></li>
-		<li><a class="nav-link" href="elements-content.html#animated-counters-section"><span class="sk__menu-icon"><span class="icon-spinner1"></span></span>Animated Counters</a></li>
-		<li><a class="nav-link" href="elements-content.html#cta-section"><span class="sk__menu-icon"><span class="icon-commenting-o"></span></span>Call To Action (CTA)</a></li>
-		<li><a class="nav-link" href="elements-content.html#contact-section"><span class="sk__menu-icon"><span class="icon-envelope-open-o"></span></span>Contact Us</a></li>
-		<li><a class="nav-link" href="elements-content.html#features-section"><span class="sk__menu-icon"><span class="icon-table2"></span></span>Features</a></li>
-		<li><a class="nav-link" href="elements-content.html#icon-boxes-section"><span class="sk__menu-icon"><span class="icon-th"></span></span>Icon Boxes</a></li>
-		<li><a class="nav-link" href="elements-content.html#image-boxes-section"><span class="sk__menu-icon"><span class="icon-th"></span></span>Image Boxes</a></li>
-		<li><a class="nav-link" href="elements-content.html#partners-section"><span class="sk__menu-icon"><span class="icon-slideshare"></span></span>Partners</a></li>
-		<li><a class="nav-link" href="elements-content.html#portfolio-section"><span class="sk__menu-icon"><span class="icon-th"></span></span>Portfolio</a></li>
-		<li><a class="nav-link" href="elements-content.html#skills-section"><span class="sk__menu-icon"><span class="icon-server"></span></span>Skills</a></li>
-		<li><a class="nav-link" href="elements-content.html#testimonials-section"><span class="sk__menu-icon"><span class="icon-comments"></span></span>Testimonials</a></li>
-		</ul>
-		</li>
-		<li class="nav-item menu-item-has-children">
-		<a class="nav-link" href="elements-parallax-content.html"><span class="sk__menu-icon"><span class="icon-codepen1"></span></span>Parallax Sections</a>
-		<ul class="sk__sub-submenu-ul">
-		<li><a class="nav-link" href="elements-parallax-content.html"><span class="sk__menu-icon"><span class="icon-codepen1"></span></span>Parallax Sections</a></li>
-		<li><a class="nav-link" href="elements-parallax-content.html#about-us-section"><span class="sk__menu-icon"><span class="icon-id-card-o"></span></span>About Us (Parallax)</a></li>
-		<li><a class="nav-link" href="elements-parallax-content.html#animated-counters-section"><span class="sk__menu-icon"><span class="icon-spinner1"></span></span>Anim. Counters (Parallax)</a></li>
-		<li><a class="nav-link" href="elements-parallax-content.html#cta-parallax-section"><span class="sk__menu-icon"><span class="icon-commenting-o"></span></span>CTA Section (Parallax)</a></li>
-		<li><a class="nav-link" href="elements-parallax-content.html#contact-parallax-section"><span class="sk__menu-icon"><span class="icon-envelope-o"></span></span>Contact Us (Parallax)</a></li>
-		<li><a class="nav-link" href="elements-parallax-content.html#featured-project-section"><span class="sk__menu-icon"><span class="icon-photo"></span></span>Featured Project</a></li>
-		<li><a class="nav-link" href="elements-parallax-content.html#features-parallax-section"><span class="sk__menu-icon"><span class="icon-object-ungroup"></span></span>Features (Parallax)</a></li>
-		<li><a class="nav-link" href="elements-parallax-content.html#icon-boxes-parallax-section"><span class="sk__menu-icon"><span class="icon-th"></span></span>Icon Boxes (Parallax)</a></li>
-		<li><a class="nav-link" href="elements-parallax-content.html#image-boxes-parallax-section"><span class="sk__menu-icon"><span class="icon-th"></span></span>Image Boxes (Parallax)</a></li>
-		<li><a class="nav-link" href="elements-parallax-content.html#laptop-section"><span class="sk__menu-icon"><span class="icon-laptop1"></span></span>Laptop Section</a></li>
-		<li><a class="nav-link" href="elements-parallax-content.html#parallax-text-section"><span class="sk__menu-icon"><span class="icon-clone"></span></span>Parallax Text</a></li>
-		<li><a class="nav-link" href="elements-parallax-content.html#parallax-images-section"><span class="sk__menu-icon"><span class="icon-object-ungroup"></span></span>Parallax Images</a></li>
-		<li><a class="nav-link" href="elements-parallax-content.html#parallax-videos-section"><span class="sk__menu-icon"><span class="icon-ondemand_video"></span></span>Parallax Video</a></li>
-		<li><a class="nav-link" href="elements-parallax-content.html#partners-parallax-section"><span class="sk__menu-icon"><span class="icon-slideshare"></span></span>Partners</a></li>
-		<li><a class="nav-link" href="elements-parallax-content.html#rings-section"><span class="sk__menu-icon"><span class="icon-bullseye"></span></span>Rings Section</a></li>
-		<li><a class="nav-link" href="elements-parallax-content.html#skills-parallax-section"><span class="sk__menu-icon"><span class="icon-server"></span></span>Skills (Parallax)</a></li>
-		<li><a class="nav-link" href="elements-parallax-content.html#testimonials-parallax-section"><span class="sk__menu-icon"><span class="icon-server"></span></span>Testimonials (Parallax)</a></li>
-		</ul>
-		</li>
-		<li class="nav-item menu-item-has-children">
-		<a class="nav-link" href="elements-galleries.html"><span class="sk__menu-icon"><span class="icon-photo"></span></span>Galleries</a>
-		<ul class="sk__sub-submenu-ul">
-		<li><a class="nav-link" href="elements-galleries.html#classic-gallery"><span class="sk__menu-icon"><span class="icon-photo"></span></span>Classic Gallery</a></li>
-		<li><a class="nav-link" href="elements-galleries.html#gallery-section"><span class="sk__menu-icon"><span class="icon-newspaper-o"></span></span>Gallery Section</a></li>
-		<li><a class="nav-link" href="elements-galleries.html#parallax-gallery"><span class="sk__menu-icon"><span class="icon-square-o"></span></span>Parallax Gallery</a></li>
-		</ul>
-		</li>
-		<li class="nav-item menu-item-has-children">
-		<a class="nav-link" href="#"><span class="sk__menu-icon"><span class="icon-gears"></span></span>Footers</a>
-		<ul class="sk__sub-submenu-ul">
-		<li class="nav-item"><a class="nav-link" href="elements-footer-simple.html"><span class="sk__menu-icon"><span class="icon-square"></span></span>Footer - Simple</a></li>
-		<li class="nav-item"><a class="nav-link" href="elements-footer-full.html"><span class="sk__menu-icon"><span class="icon-table2"></span></span>Footer - Full</a></li>
-		</ul>
-		</li>
-		<li class="nav-item">
-		<a class="nav-link" href="elements-typography.html"><span class="sk__menu-icon"><span class="icon-font1"></span></span>Typography</a>
-		</li>
-		<li class="nav-item">
-		<a class="nav-link" href="elements-icon-fonts.html"><span class="sk__menu-icon"><span class="icon-th"></span></span>Icon Fonts</a>
-		</li>
-		</ul>
-		</li> -->
-
-				<li class="nav-item">
-					<!-- <a class="nav-link hvr-underline-from-center" href="theme-preview.html#demo-select"><span class="sk__menu-icon"><span class="icon-laptop1"></span></span>Contact Us</a> -->
-					<a class="nav-link hvr-underline-from-center" href="contact-us.html">Contact Us</a>
-				</li>
-
-				<!-- <li class="nav-item">
-		<a class="nav-link" href="https://1.envato.market/a1mP7Z"><span class="sk__menu-icon"><span class="icon-shopping-cart"></span></span>Get DarkStar Now</a>
-		</li> -->
-				<!-- Regular Menu Items End -->
-
-				<!-- Mobile Menu Social Icons -->
-				<li data-nav-custom-content class="custom-content sk__menu-socials">
-					<section class="footer-socials-section">
-						<h3><strong>Connect</strong> with us</h3>
-						<div class="footer-socials-inner">
-							<div class="footer-socials">
-								<a class="social-icons" href="#" target="_blank"><span><span
-											class="icon-facebook1"></span></span></a>
-								<a class="social-icons" href="#" target="_blank"><span><span
-											class="icon-twitter1"></span></span></a>
-								<a class="social-icons" href="#" target="_blank"><span><span
-											class="icon-behance1"></span></span></a>
-								<a class="social-icons" href="#" target="_blank"><span><span
-											class="icon-dribbble1"></span></span></a>
+				<nav id="main-nav" style="opacity: 0"
+				class="sk__menu navbar sk__navbar navbar-expand-lg navbar-dark static-top">
+				<!-- Desktop Menu Logo -->
+				<a class="navbar-brand" href="#"><img id="sk__main-logo" alt="Website logo."
+						src="assets/images/logo/removebgblack.png" /></a>
+	
+				<!-- The Menu -->
+				<ul class="navbar-nav ms-auto">
+					<!-- Mobile Menu Logo (only use if "close" buttons are set to false in JS) -->
+					<li data-nav-custom-content class="custom-content sk__mobile-menu-logo">
+						<a class="sk__mobile-navbar-brand" href="index.html" style="outline: none;">
+							<!-- <img alt="Website mobile logo." src="/assets/images/logo/Karoovan_Logo_3-removebg-preview.png" /></a> -->
+							<img alt="Website mobile logo." src="/assets/images/logo/Karoovan_Logo_3-removebg-preview.png" /></a>
+	
+					</li>
+	
+					<!-- Regular Menu Items Start -->
+					<li class="nav-item menu-item-has-children">
+						<a class="nav-link hvr-underline-from-center" href="index.html" style="color: #000000;">Home</a>
+						<!-- <ul class="sk__submenu-ul">
+	<li class="nav-item"><a class="nav-link" href="index.html"><span class="sk__menu-icon"><span class="icon-codepen1"></span></span>Combo Slider (<em>default</em>)</a></li>
+	<li class="nav-item"><a class="nav-link" href="home-portfolio.html"><span class="sk__menu-icon"><span class="icon-th"></span></span>Portfolio Home</a></li>
+	<li class="nav-item"><a class="nav-link" href="home-morphing-hover-hero-image.html"><span class="sk__menu-icon"><span class="icon-star"></span></span>Morphing Hover Hero</a></li>
+	<li class="nav-item"><a class="nav-link" href="home-mega-text-video.html"><span class="sk__menu-icon"><span class="icon-cc-jcb"></span></span>Mega Text (Video)</a></li>
+	<li class="nav-item"><a class="nav-link" href="index.html"><span class="sk__menu-icon"><span class="icon-clone"></span></span>Parallax Home</a></li>
+	<li class="nav-item"><a class="nav-link" href="home-parallax-half-screens.html"><span class="sk__menu-icon"><span class="icon-object-ungroup"></span></span>Parallax Half-screens</a></li>
+	<li class="nav-item"><a class="nav-link" href="home-mega-text-image.html"><span class="sk__menu-icon"><span class="icon-cc-jcb"></span></span>Mega Text (Image)</a></li>
+	<li class="nav-item"><a class="nav-link" href="home-fullscreen-video.html"><span class="sk__menu-icon"><span class="icon-play-circle"></span></span>Full Screen Video</a></li>
+	<li class="nav-item"><a class="nav-link" href="home-parallax-strips-hero.html"><span class="sk__menu-icon"><span class="icon-view_week"></span></span>Parallax Strips Hero</a></li>
+	<li class="nav-item"><a class="nav-link" href="home-hero-slide-show.html"><span class="sk__menu-icon"><span class="icon-photo"></span></span>Hero Slide Show</a></li>
+	<li class="nav-item"><a class="nav-link" href="home-animated-headline.html"><span class="sk__menu-icon"><span class="icon-play_arrow"></span></span>Animated Headline</a></li>
+	<li class="nav-item"><a class="nav-link" href="home-hero-image.html"><span class="sk__menu-icon"><span class="icon-photo"></span></span>Hero Image</a></li>
+	<li class="nav-item"><a class="nav-link" href="home-news.html"><span class="sk__menu-icon"><span class="icon-newspaper-o"></span></span>News Home</a></li>
+	<li class="nav-item"><a class="nav-link" href="home-fullscreen-video-yt.html"><span class="sk__menu-icon"><span class="icon-youtube-play"></span></span>Full Screen Video (YT)</a></li>
+	<li class="nav-item"><a class="nav-link" href="home-combo-light.html"><span class="sk__menu-icon"><span class="icon-codepen1"></span></span>Combo Slider (Light)</a></li>
+	</ul> -->
+					</li>
+	
+					<li class="nav-item menu-item-has-children">
+						<a class="nav-link hvr-underline-from-center" href="about-us.html" style="color: #000000;">About US</a>
+						<!-- <ul class="sk__submenu-ul">
+	<li class="nav-item"><a class="nav-link" href="about-us.html"><span class="sk__menu-icon"><span class="icon-user-circle"></span></span>About Us</a></li>
+	<li class="nav-item"><a class="nav-link" href="page-services.html"><span class="sk__menu-icon"><span class="icon-th"></span></span>Services</a></li>
+	<li class="nav-item"><a class="nav-link" href="page-service-item.html"><span class="sk__menu-icon"><span class="icon-codepen1"></span></span>Service or Product</a></li>
+	<li class="nav-item"><a class="nav-link" href="page-portfolio.html"><span class="sk__menu-icon"><span class="icon-th"></span></span>Portfolio</a></li>
+	<li class="nav-item"><a class="nav-link" href="page-portfolio-item.html"><span class="sk__menu-icon"><span class="icon-object-group"></span></span>Project - Parallax Gallery</a></li>
+	<li class="nav-item"><a class="nav-link" href="page-portfolio-item-classic-gallery.html"><span class="sk__menu-icon"><span class="icon-photo"></span></span>Project - Classic Gallery</a></li>
+	<li class="nav-item"><a class="nav-link" href="page-features.html"><span class="sk__menu-icon"><span class="icon-table2"></span></span>Features</a></li>
+	<li class="nav-item"><a class="nav-link" href="page-news.html"><span class="sk__menu-icon"><span class="icon-list-alt"></span></span>News</a></li>
+	<li class="nav-item"><a class="nav-link" href="page-news-item.html"><span class="sk__menu-icon"><span class="icon-file-text"></span></span>Article - Parallax Header</a></li>
+	<li class="nav-item"><a class="nav-link" href="page-news-item-classic.html"><span class="sk__menu-icon"><span class="icon-file-text-o"></span></span>Article - Classic</a></li>
+	<li class="nav-item"><a class="nav-link" href="contact-us.html"><span class="sk__menu-icon"><span class="icon-envelope-o"></span></span>Contact Us</a></li>
+	<li class="nav-item"><a class="nav-link" href="page-coming-soon.html"><span class="sk__menu-icon"><span class="icon-access_time"></span></span>Coming Soon</a></li>
+	<li class="nav-item"><a class="nav-link" href="page-404.html"><span class="sk__menu-icon"><span class="icon-warning"></span></span>404 Page</a></li>
+	<li class="nav-item"><a class="nav-link" href="page-terms-and-conditions.html"><span class="sk__menu-icon"><span class="icon-library"></span></span>Terms and Conditions</a></li>
+	<li class="nav-item"><a class="nav-link" href="page-privacy-policy.html"><span class="sk__menu-icon"><span class="icon-shield"></span></span>Privacy Policy</a></li>
+	</ul> -->
+					</li>
+					<li class="nav-item menu-item-has-children">
+						<a class="nav-link hvr-underline-from-center" href="#caravanAssortment" style="color: #000000;">Caravan Assortments</a>
+						<ul class="sk__submenu-ul">
+							<li class="nav-item"><a class="nav-link" href="caravan-conventional.html"  style="color: #000000;">The
+									conventional caravan</a></li>
+							<li class="nav-item"><a class="nav-link" href="caravan-twin-axle-caravan.html"  style="color: #000000;">The twin
+									axle caravan</a></li>
+							<li class="nav-item"><a class="nav-link" href="caravan-teardrop.html"  style="color: #000000;">Tiny teardrop
+									trailers</a></li>
+							<li class="nav-item"><a class="nav-link" href="caravan-Poptop.html"  style="color: #000000;">Pop top
+									caravans</a></li>
+							<li class="nav-item"><a class="nav-link" href="caravan-TinyGrpCaravan.html"  style="color: #000000;">Tiny GRP
+									caravans</a></li>
+							<li class="nav-item"><a class="nav-link" href="caravan-folding.html"  style="color: #000000;">Folding
+									caravans</a></li>
+							<li class="nav-item"><a class="nav-link" href="caravan-TheAmericanAirstream.html"  style="color: #000000;">The
+									American Airstream</a></li>
+							<li class="nav-item"><a class="nav-link" href="caravan-Fifthwheelers.html"  style="color: #000000;">Fifth
+									wheelers</a></li>
+							<li class="nav-item"><a class="nav-link" href="caravan-ThestylishT@BandSwiftBasecamp.html"  style="color: #000000;">The
+									stylish T@B and Swift
+									Basecamp</a></li>
+	
+						</ul>
+					</li>
+					<!-- <li class="nav-item menu-item-has-children">
+	<a class="nav-link hvr-underline-from-center" href="#"><span class="sk__menu-icon"><span class="icon-th"></span></span>Elements</a>
+	<ul class="sk__submenu-ul">
+	<li class="nav-item menu-item-has-children">
+	<a class="nav-link" href="#"><span class="sk__menu-icon green sk__icon-popup"><span class="icon-usd"></span><span class="icon-usd"></span><span class="sk__icon-popup-text">$235 Added Value</span></span>Premium & Extras</a>
+	<ul class="sk__sub-submenu-ul">
+	<li class="nav-item"><a class="nav-link" href="elements-gsap.html"><span class="sk__menu-icon green sk__icon-popup"><span class="icon-usd"></span><span class="icon-usd"></span><span class="sk__icon-popup-text">Best Premium Animation Engine on the market. $199 Added Value</span></span>Greensock GSAP</a>
+	</li>
+	<li class="nav-item"><a class="nav-link" href="elements-forms.html"><span class="sk__menu-icon green sk__icon-popup"><span class="icon-usd"></span><span class="icon-usd"></span><span class="sk__icon-popup-text">Fully Working Forms! $14 Added Value</span></span>Contact Forms</a></li>
+	<li class="nav-item"><a class="nav-link" href="elements-forms.html#subscribe-form"><span class="sk__menu-icon green sk__icon-popup"><span class="icon-usd"></span><span class="icon-usd"></span><span class="sk__icon-popup-text">Fully Working Forms! $14 Added Value</span></span>Subscribe Forms</a></li>
+	<li class="nav-item"><a class="nav-link" href="elements-mockups.html"><span class="sk__menu-icon green sk__icon-popup"><span class="icon-usd"></span><span class="icon-usd"></span><span class="sk__icon-popup-text">Premium Mockups included, $22 Added Value</span></span>PSD & AI Mockups</a></li>
+	</ul>
+	</li>
+	<li class="nav-item menu-item-has-children">
+	<a class="nav-link" href="#"><span class="sk__menu-icon"><span class="icon-codepen1"></span></span>Sliders & Hero</a>
+	<ul class="sk__sub-submenu-ul">
+	<li class="nav-item"><a class="nav-link" href="elements-hero-combo-slider.html"><span class="sk__menu-icon"><span class="icon-codepen1"></span></span>Combo Slider</a></li>
+	<li class="nav-item"><a class="nav-link" href="elements-hero-fullscreen-video.html"><span class="sk__menu-icon"><span class="icon-play-circle"></span></span>Full Screen Video</a></li>
+	<li class="nav-item"><a class="nav-link" href="elements-hero-fullscreen-video-yt.html"><span class="sk__menu-icon"><span class="icon-youtube-play"></span></span>Full Screen Video (YT)</a></li>
+	<li class="nav-item"><a class="nav-link" href="elements-hero-slide-show.html"><span class="sk__menu-icon"><span class="icon-photo"></span></span>Hero Slide Show</a></li>
+	<li class="nav-item"><a class="nav-link" href="elements-hero-mega-text-video.html"><span class="sk__menu-icon"><span class="icon-cc-jcb"></span></span>Mega Text (Video)</a></li>
+	<li class="nav-item"><a class="nav-link" href="elements-hero-mega-text-image.html"><span class="sk__menu-icon"><span class="icon-cc-jcb"></span></span>Mega Text (Image)</a></li>
+	<li class="nav-item"><a class="nav-link" href="elements-hero-parallax-strips.html"><span class="sk__menu-icon"><span class="icon-view_week"></span></span>Parallax Strips Hero</a></li>
+	<li class="nav-item"><a class="nav-link" href="elements-hero-animated-headline.html"><span class="sk__menu-icon"><span class="icon-play_arrow"></span></span>Animated Hero Headline</a></li>
+	<li class="nav-item"><a class="nav-link" href="elements-hero-image.html"><span class="sk__menu-icon"><span class="icon-photo"></span></span>Hero Image</a></li>
+	</ul>
+	</li>
+	<li class="nav-item menu-item-has-children">
+	<a class="nav-link" href="elements-content.html"><span class="sk__menu-icon"><span class="icon-th"></span></span>Content Sections</a>
+	<ul class="sk__sub-submenu-ul">
+	<li><a class="nav-link" href="elements-content.html"><span class="sk__menu-icon"><span class="icon-th"></span></span>Content Sections</a></li>
+	<li><a class="nav-link" href="elements-content.html#animated-counters-section"><span class="sk__menu-icon"><span class="icon-spinner1"></span></span>Animated Counters</a></li>
+	<li><a class="nav-link" href="elements-content.html#cta-section"><span class="sk__menu-icon"><span class="icon-commenting-o"></span></span>Call To Action (CTA)</a></li>
+	<li><a class="nav-link" href="elements-content.html#contact-section"><span class="sk__menu-icon"><span class="icon-envelope-open-o"></span></span>Contact Us</a></li>
+	<li><a class="nav-link" href="elements-content.html#features-section"><span class="sk__menu-icon"><span class="icon-table2"></span></span>Features</a></li>
+	<li><a class="nav-link" href="elements-content.html#icon-boxes-section"><span class="sk__menu-icon"><span class="icon-th"></span></span>Icon Boxes</a></li>
+	<li><a class="nav-link" href="elements-content.html#image-boxes-section"><span class="sk__menu-icon"><span class="icon-th"></span></span>Image Boxes</a></li>
+	<li><a class="nav-link" href="elements-content.html#partners-section"><span class="sk__menu-icon"><span class="icon-slideshare"></span></span>Partners</a></li>
+	<li><a class="nav-link" href="elements-content.html#portfolio-section"><span class="sk__menu-icon"><span class="icon-th"></span></span>Portfolio</a></li>
+	<li><a class="nav-link" href="elements-content.html#skills-section"><span class="sk__menu-icon"><span class="icon-server"></span></span>Skills</a></li>
+	<li><a class="nav-link" href="elements-content.html#testimonials-section"><span class="sk__menu-icon"><span class="icon-comments"></span></span>Testimonials</a></li>
+	</ul>
+	</li>
+	<li class="nav-item menu-item-has-children">
+	<a class="nav-link" href="elements-parallax-content.html"><span class="sk__menu-icon"><span class="icon-codepen1"></span></span>Parallax Sections</a>
+	<ul class="sk__sub-submenu-ul">
+	<li><a class="nav-link" href="elements-parallax-content.html"><span class="sk__menu-icon"><span class="icon-codepen1"></span></span>Parallax Sections</a></li>
+	<li><a class="nav-link" href="elements-parallax-content.html#about-us-section"><span class="sk__menu-icon"><span class="icon-id-card-o"></span></span>About Us (Parallax)</a></li>
+	<li><a class="nav-link" href="elements-parallax-content.html#animated-counters-section"><span class="sk__menu-icon"><span class="icon-spinner1"></span></span>Anim. Counters (Parallax)</a></li>
+	<li><a class="nav-link" href="elements-parallax-content.html#cta-parallax-section"><span class="sk__menu-icon"><span class="icon-commenting-o"></span></span>CTA Section (Parallax)</a></li>
+	<li><a class="nav-link" href="elements-parallax-content.html#contact-parallax-section"><span class="sk__menu-icon"><span class="icon-envelope-o"></span></span>Contact Us (Parallax)</a></li>
+	<li><a class="nav-link" href="elements-parallax-content.html#featured-project-section"><span class="sk__menu-icon"><span class="icon-photo"></span></span>Featured Project</a></li>
+	<li><a class="nav-link" href="elements-parallax-content.html#features-parallax-section"><span class="sk__menu-icon"><span class="icon-object-ungroup"></span></span>Features (Parallax)</a></li>
+	<li><a class="nav-link" href="elements-parallax-content.html#icon-boxes-parallax-section"><span class="sk__menu-icon"><span class="icon-th"></span></span>Icon Boxes (Parallax)</a></li>
+	<li><a class="nav-link" href="elements-parallax-content.html#image-boxes-parallax-section"><span class="sk__menu-icon"><span class="icon-th"></span></span>Image Boxes (Parallax)</a></li>
+	<li><a class="nav-link" href="elements-parallax-content.html#laptop-section"><span class="sk__menu-icon"><span class="icon-laptop1"></span></span>Laptop Section</a></li>
+	<li><a class="nav-link" href="elements-parallax-content.html#parallax-text-section"><span class="sk__menu-icon"><span class="icon-clone"></span></span>Parallax Text</a></li>
+	<li><a class="nav-link" href="elements-parallax-content.html#parallax-images-section"><span class="sk__menu-icon"><span class="icon-object-ungroup"></span></span>Parallax Images</a></li>
+	<li><a class="nav-link" href="elements-parallax-content.html#parallax-videos-section"><span class="sk__menu-icon"><span class="icon-ondemand_video"></span></span>Parallax Video</a></li>
+	<li><a class="nav-link" href="elements-parallax-content.html#partners-parallax-section"><span class="sk__menu-icon"><span class="icon-slideshare"></span></span>Partners</a></li>
+	<li><a class="nav-link" href="elements-parallax-content.html#rings-section"><span class="sk__menu-icon"><span class="icon-bullseye"></span></span>Rings Section</a></li>
+	<li><a class="nav-link" href="elements-parallax-content.html#skills-parallax-section"><span class="sk__menu-icon"><span class="icon-server"></span></span>Skills (Parallax)</a></li>
+	<li><a class="nav-link" href="elements-parallax-content.html#testimonials-parallax-section"><span class="sk__menu-icon"><span class="icon-server"></span></span>Testimonials (Parallax)</a></li>
+	</ul>
+	</li>
+	<li class="nav-item menu-item-has-children">
+	<a class="nav-link" href="elements-galleries.html"><span class="sk__menu-icon"><span class="icon-photo"></span></span>Galleries</a>
+	<ul class="sk__sub-submenu-ul">
+	<li><a class="nav-link" href="elements-galleries.html#classic-gallery"><span class="sk__menu-icon"><span class="icon-photo"></span></span>Classic Gallery</a></li>
+	<li><a class="nav-link" href="elements-galleries.html#gallery-section"><span class="sk__menu-icon"><span class="icon-newspaper-o"></span></span>Gallery Section</a></li>
+	<li><a class="nav-link" href="elements-galleries.html#parallax-gallery"><span class="sk__menu-icon"><span class="icon-square-o"></span></span>Parallax Gallery</a></li>
+	</ul>
+	</li>
+	<li class="nav-item menu-item-has-children">
+	<a class="nav-link" href="#"><span class="sk__menu-icon"><span class="icon-gears"></span></span>Footers</a>
+	<ul class="sk__sub-submenu-ul">
+	<li class="nav-item"><a class="nav-link" href="elements-footer-simple.html"><span class="sk__menu-icon"><span class="icon-square"></span></span>Footer - Simple</a></li>
+	<li class="nav-item"><a class="nav-link" href="elements-footer-full.html"><span class="sk__menu-icon"><span class="icon-table2"></span></span>Footer - Full</a></li>
+	</ul>
+	</li>
+	<li class="nav-item">
+	<a class="nav-link" href="elements-typography.html"><span class="sk__menu-icon"><span class="icon-font1"></span></span>Typography</a>
+	</li>
+	<li class="nav-item">
+	<a class="nav-link" href="elements-icon-fonts.html"><span class="sk__menu-icon"><span class="icon-th"></span></span>Icon Fonts</a>
+	</li>
+	</ul>
+	</li> -->
+	
+					<li class="nav-item">
+						<!-- <a class="nav-link hvr-underline-from-center" href="theme-preview.html#demo-select"><span class="sk__menu-icon"><span class="icon-laptop1"></span></span>Contact Us</a> -->
+						<a class="nav-link hvr-underline-from-center" href="contact-us.html"  style="color: #000000;">Contact Us</a>
+					</li>
+	
+					<!-- <li class="nav-item">
+	<a class="nav-link" href="https://1.envato.market/a1mP7Z"><span class="sk__menu-icon"><span class="icon-shopping-cart"></span></span>Get DarkStar Now</a>
+	</li> -->
+					<!-- Regular Menu Items End -->
+	
+					<!-- Mobile Menu Social Icons -->
+					<li data-nav-custom-content class="custom-content sk__menu-socials">
+						<section class="footer-socials-section">
+							<h3 ><strong>Connect</strong> with us</h3>
+							<div class="footer-socials-inner">
+								<div class="footer-socials">
+									<a class="social-icons" href="#" target="_blank"><span><span
+												class="icon-facebook1"></span></span></a>
+									<a class="social-icons" href="#" target="_blank"><span><span
+												class="icon-twitter1"></span></span></a>
+									<a class="social-icons" href="#" target="_blank"><span><span
+												class="icon-behance1"></span></span></a>
+									<a class="social-icons" href="#" target="_blank"><span><span
+												class="icon-dribbble1"></span></span></a>
+								</div>
 							</div>
-						</div>
-					</section>
-				</li>
-			</ul>
-		</nav>
+						</section>
+					</li>
+				</ul>
+			</nav>
 		<!-- /.sk__menu -->
 
 		<div id="smooth-wrapper" class="pushable-content">
@@ -279,8 +283,8 @@
 
 				<!-- About Us Section
 				================================================== -->
-				<section id="about-us" class="sk__about-us-section sk__py-xl">
-					<div class="container sk__supercontainer">
+				<section id="about-us" class="sk__about-us-section sk__py-xl" >
+					<div class="container sk__supercontainer"   >
 						<div class="row">
 							<div
 								class="col-12 col-lg-6 sk__rectangles-left about-left text-center text-sm-start sk__fade-in-2">
@@ -313,7 +317,7 @@
 								</div>
 								<h1 class="super-heading sk__clipped-text sk__gradient-back-v1 mb-sm-1">About Us<span
 										class="heading-deco">.-></span></h1>
-								<h2 class="h2-regular">Driven by<strong> Adventure</strong> Enthusiasts</h2>
+								<h2 class="h2-regular" >Driven by<strong> Adventure</strong> Enthusiasts</h2>
 								<p class="mw-440">At Karoovan, we craft the ideal caravans for your adventures. Our
 									mission is to make your journey comfortable and thrilling. Discover the world with
 									our exceptional caravans.</p>
@@ -395,16 +399,16 @@
 
 				<!-- CTA Section (Warp CTA)
 				================================================== -->
-				<section class="sk__cta-warp position-relative sk__image-back-cover">
+				<section class="sk__cta-warp position-relative sk__image-back-cover" style="background-color:rgba(0, 0, 0, 0.64)">
 					<div class="container sk__powercontainer">
 						<div class="row">
 							<div class="col text-center">
 								<div class="sk__warped-text-wrapper sk__flex-center">
-									<span class="sk__warped-text">GET IN TOUCH</span>
+									<span class="sk__warped-text" style="color: #000000;">GET IN TOUCH</span>
 								</div>
-								<h3><strong>REACH OUT AND CONNECT</strong></h3>
+								<h3  style="color: #000000;" ><strong>REACH OUT AND CONNECT</strong></h3>
 								<a class="btn btn-lg btn-outline-light sk__warped-button" href="/contact-us.html"
-									role="button">CONTACT US-></a>
+									role="button"  style="color: #000000;" >CONTACT US-></a>
 							</div>
 						</div>
 					</div>
@@ -413,7 +417,8 @@
 
 				<!-- Footer
 				================================================== -->
-				<footer class="dark-shade-2-bg position-relative">
+				<footer class="dark-shade-2-bg position-relative" 
+">
 					<div class="footer-background-container sk__absolute">
 						<div class="sk__gradient-background-tint footer-background sk__absolute"></div>
 					</div>
@@ -422,9 +427,9 @@
 						<div class="row footer-top">
 							<div class="col-12 col-sm-6 top-footer-logo">
 								<!-- <img
-							src="assets/images/logo/Karoovan_Logo_3-removebg-preview.png"
-							alt="Site logo in the footer."
-						  /> -->
+                    src="assets/images/logo/Karoovan_Logo_3-removebg-preview.png"
+                    alt="Site logo in the footer."
+                  /> -->
 								<img src="assets/images/logo/KaroovanLogo_2copy.png" alt="Site logo in the footer." />
 							</div>
 							<div class="col-12 col-sm-6 top-footer-tagline">
@@ -451,29 +456,29 @@
 									their mobile adventures.
 								</p>
 								<!-- <h5>Manhattan Studio</h5>
-						  <p class="p-v2 mw-440">
-							<span>1000 Park Avenue Manhattan, </span
-							><span>NY 10001, </span><span>+1 (0) 212 555-0475 </span
-							><br /><span>info@website.com</span>
-						  </p> -->
+                  <p class="p-v2 mw-440">
+                    <span>1000 Park Avenue Manhattan, </span
+                    ><span>NY 10001, </span><span>+1 (0) 212 555-0475 </span
+                    ><br /><span>info@website.com</span>
+                  </p> -->
 							</div>
 							<div class="col-sm-12 col-md-6 col-lg-3 footer-main-small-col widget_nav_menu">
 								<h5>Karoovan Quick Links</h5>
 								<ul>
 									<li>
-										<a href="index.html" class="footer-main-links gradient-links">Home</a>
+										<a href="index.html" class="footer-main-links gradient-links" style="outline: none;">Home</a>
 									</li>
 									<li>
-										<a href="about-us.html" class="footer-main-links gradient-links">About
+										<a href="about-us.html" class="footer-main-links gradient-links" style="outline: none;">About
 											Us</a>
 									</li>
 									<!-- <li>
-										<a href="#caravanAssortment" class="footer-main-links gradient-links">Caravan
+										<a href="#caravanAssortment" class="footer-main-links gradient-links" style="outline: none;">Caravan
 											Assortments</a>
 									</li> -->
 
 									<li>
-										<a href="contact-us.html" class="footer-main-links gradient-links">Contact
+										<a href="contact-us.html" class="footer-main-links gradient-links" style="outline: none;">Contact
 											Us</a>
 									</li>
 								</ul>
@@ -502,23 +507,23 @@
 								<div class="row">
 									<div class="col">
 										<!-- Widget - Subscribe
-								================================================== -->
+						================================================== -->
 										<!-- <div class="widget custom_subscribe_widget">
-								<div class="sk__widget-inner">
-								
-								  <form class="sk__form sk__subscribe-form">
-									<div class="form-group">
-									  <input
-										type="email"
-										name="the_email"
-										placeholder="Enter email address*"
-										tabindex="1"
-									  />
-									</div>
-									<button type="submit" tabindex="2">SUB</button>
-								  </form>
-								</div>
-							  </div> -->
+                        <div class="sk__widget-inner">
+                        
+                          <form class="sk__form sk__subscribe-form">
+                            <div class="form-group">
+                              <input
+                                type="email"
+                                name="the_email"
+                                placeholder="Enter email address*"
+                                tabindex="1"
+                              />
+                            </div>
+                            <button type="submit" tabindex="2">SUB</button>
+                          </form>
+                        </div>
+                      </div> -->
 										<!-- /.custom_subscribe_widget -->
 									</div>
 								</div>
@@ -529,23 +534,23 @@
 
 						<div class="row footer-bottom">
 							<!-- <div
-						  class="col-xs-12 col-sm-6 col-md-4 text-center text-sm-start"
-						>
-						  <h5>Karoovan&#8198; Web</h5>
-						</div> -->
+                  class="col-xs-12 col-sm-6 col-md-4 text-center text-sm-start"
+                >
+                  <h5>Karoovan&#8198; Web</h5>
+                </div> -->
 							<div
 								class="col-12 col-md-4 order-xs-3 order-sm-3 order-md-2 text-center text-sm-start text-md-center">
-								<p class="p-footer-copyright">
+								<p class="p-footer-copyright" style="color:white">
 									© 2024 Karoovan | Powered by
 									<a href="https://howincloud.com/" target="_blank">HowinCLOUD</a>
 								</p>
 
 							</div>
 							<!-- <div class="col-xs-12 col-sm-6 col-md-4 order-sm-2 order-md-3 text-center text-sm-end">
-						<a class="footer-bottom-right-links" href="#" target="_blank">Privacy</a>
-						<a class="footer-bottom-right-links" href="#" target="_blank">Terms</a>
-						<a class="footer-bottom-right-links" href="#" target="_blank">Contact</a>
-					</div> -->
+				<a class="footer-bottom-right-links" href="#" target="_blank">Privacy</a>
+				<a class="footer-bottom-right-links" href="#" target="_blank">Terms</a>
+				<a class="footer-bottom-right-links" href="#" target="_blank">Contact</a>
+			</div> -->
 						</div>
 					</div>
 				</footer>
